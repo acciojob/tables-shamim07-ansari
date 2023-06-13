@@ -3,11 +3,49 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<table class="table">
+	<thead>
+    <tr>
+      <th scope="col">Product</th>
+      <th scope="col">Price</th>
+      <th scope="col">Quantity</th>
+      <th scope="col">Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Item 1</td>
+      <td>$10</td>
+      <td>2</td>
+      <td>$20</td>
+    </tr>
+    <tr>
+      <td>Item 2</td>
+      <td>$15</td>
+      <td>3</td>
+      <td>$45</td>
+    </tr>
+    <tr>
+      <td>Item 3</td>
+      <td>$8</td>
+      <td>4</td>
+      <td>$32</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td></td>
+      <td></td>
+      <td class="text-end fw-bold">Total:</td>
+      <td id="total" class="text-end fw-bold font-monospace">$97</td>
+    </tr>
+  </tfoot>
+</table>
     <script type="text/javascript" src="./script.js">
 </script>
 
